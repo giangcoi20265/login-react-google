@@ -5,7 +5,7 @@ function App() {
     <div >
      <LoginSocialGoogle
       clinet_id={
-       "752457183785-8sr16u8g3ners6qr6ia7q0uad2360fra.apps.googleusercontent.com" 
+        "752457183785-8sr16u8g3ners6qr6ia7q0uad2360fra.apps.googleusercontent.com"
       }
       scope="openid profile"
       discoveryDocs="class_spported"
@@ -17,7 +17,7 @@ function App() {
         console.error("Error", err);
       }}
      >
-    
+    <GoogleLoginButton />
      </LoginSocialGoogle>
     </div>
   );
